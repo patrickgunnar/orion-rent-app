@@ -42,8 +42,8 @@ const AccountModal = () => {
     // render elements
     return (
         <Modal
-            title="Fazer login ou registrar-se"
-            description={`Seja bem-vindo ao ${websitedata.title}.`}
+            title="Login or Register"
+            description={`Welcome to ${websitedata.title}.`}
             isOpen={accountModal.isOpen}
             onChange={() => onChangeHandler(accountModal.isOpen)}>
             <div className="h-fit w-full md:w-[80%]">
