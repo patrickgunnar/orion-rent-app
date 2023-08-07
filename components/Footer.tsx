@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="fixed bottom-0 z-30 h-fit w-full">
             <footer className="flex flex-row mx-auto rounded-t-lg justify-center items-center drop-shadow-[0_0_0.5rem] 
                 shadow-[#00000080] from-[#FFFAFA] via-[#F0EBEB] to-[#E1DCDC] bg-gradient-to-b w-[99.5%] h-[50px]">
-                <div className="flex justify-between items-center h-full w-full md:w-[20%]">
+                <div className="flex justify-between items-center h-full w-[95%] md:w-[20%]">
                     <div>
                         © <a href="https://www.linkedin.com/in/patrickgunnar/">
                             Patrick Gunnar
