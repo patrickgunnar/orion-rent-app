@@ -136,7 +136,7 @@ const Conversation: React.FC<ConversationProps> = ({
                 observer.disconnect()
             }
         }
-    }, [currentContainerRef.current, currentChat, handleElementIntersection])
+    }, [currentChat, handleElementIntersection])
 
     // host img
     const hostImg = useImage(host_details?.avatar_url)
