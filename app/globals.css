@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--root-background-color: #ffffff 10%, #d3d3d3 30%, #808080 60%, #4c4c4c 100%;
+	--calendar-background-color: #FFFAFA, #F0EBEB, #E1DCDC;
+}
+
+html,
+body,
+:root {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: -moz-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: -webkit-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: -o-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: linear-gradient(var(--root-background-color)) no-repeat fixed;
+}
