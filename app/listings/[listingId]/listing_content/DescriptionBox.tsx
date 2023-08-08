@@ -43,15 +43,13 @@ const DescriptionBox: React.FC<DescriptionBoxProps> = ({
             <div className="flex text-left text-base text-gray-600 font-normal px-4 pb-2 h-fit w-full">
                 {location}
             </div>
-            <div className="flex flex-row justify-between items-center h-fit w-full">
-                <div className="flex flex-col md:flex-row h-fit w-fit">
-                    <div className="flex text-left text-base font-bold px-4 h-fit w-full">
-                        Rate:
-                    </div>
-                    <div className="flex flex-row justify-center items-center gap-2 h-fit w-full">
-                        <GrStar size={20} />
-                        {star_rates} stars
-                    </div>
+            <div className="flex justify-between items-center h-fit w-full lg:w-[30%] md:self-end">
+                <div className="flex text-left text-base font-bold px-4 h-fit w-fit">
+                    Rate:
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2 h-fit w-fit">
+                    <GrStar size={20} />
+                    {star_rates} stars
                 </div>
             </div>
             <div className="flex flex-col gap-4 mt-2 mb-8 h-fit w-full">
