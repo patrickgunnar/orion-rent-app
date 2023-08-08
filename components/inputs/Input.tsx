@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form";
-import { TbCurrencyReal } from "react-icons/tb";
+import { TbCurrencyPound } from "react-icons/tb";
 
 
 interface TextInputProps {
@@ -54,7 +54,7 @@ const Input: React.FC<TextInputProps> = ({
                         isLabel ? 'h-fit' : 'h-full')}>
                         {
                             formatPrice && (
-                                <TbCurrencyReal className="absolute left-2"
+                                <TbCurrencyPound className="absolute left-2"
                                     size={25}
                                 />
                             )
