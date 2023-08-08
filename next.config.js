@@ -5,7 +5,7 @@ const nextConfig = {
     },
     images: {
         domains: [
-            'nmyapppapvrhrnlhgsra.supabase.co'
+            'dgzzftdzspgzoawsixkx.supabase.co'
         ]
     }
 }
