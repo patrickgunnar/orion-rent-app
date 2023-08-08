@@ -72,7 +72,7 @@ const Slider: React.FC<SliderProps> = ({
         const currentClones: ReactElement[] = []
 
         // temp array
-        const temp_properties = properties.filter((_, index) => index <= 15)
+        const temp_properties = properties.filter((_, index) => index < 15)
 
         temp_properties.forEach((item, index) => {
             // push current item into currentItems
