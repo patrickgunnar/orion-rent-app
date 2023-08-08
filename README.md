@@ -50,5 +50,5 @@ OrionRent utilizes the following state-of-the-art technologies:
 
 - **TypeScript:** TypeScript is a strongly-typed superset of JavaScript, providing enhanced code safety and improved developer productivity.
 
-By showcasing the use of these technologies in your portfolio, you highlight your expertise in crafting an elegant, sophisticated, and efficient platform like OrionRent. The combination of Next.js, React.js, Tailwind CSS, Supabase, clsx, zustand, uniqid, and TypeScript has resulted in a website that epitomizes the perfect blend of form and functionality, offering users a luxurious experience in their quest for short and long-term property rentals.
+By showcasing the use of these technologies in your portfolio, I highlight my expertise in crafting an elegant, sophisticated, and efficient platform like OrionRent. The combination of Next.js, React.js, Tailwind CSS, Supabase, clsx, zustand, uniqid, and TypeScript has resulted in a website that epitomizes the perfect blend of form and functionality, offering users a luxurious experience in their quest for short and long-term property rentals.
 # orion-rent-app
