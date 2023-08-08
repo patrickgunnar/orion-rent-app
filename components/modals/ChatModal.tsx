@@ -136,7 +136,7 @@ const ChatModal = () => {
     let currentLayout = (
         <div className="flex flex-col gap-2 justify-center items-center p-4 h-fit w-full">
             {
-                chats ? (
+                (chats && chats.length > 0) ? (
                     chats.map((item, index) => (
                         <ChatBox key={index} chat={item} />
                     ))
